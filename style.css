@@ -90,7 +90,7 @@ h2 {
 }
 
 .section {
-  max-width: 1010px;
+  max-width: 1020px;
   background-color: #fff;
 }
 
@@ -111,7 +111,7 @@ h3 {
 }
 
 .icons {
-  height: 16px;
+  height: 15px;
 }
 
 ul {
@@ -120,7 +120,12 @@ ul {
 }
 
 .contacts a {
-  line-height: 2;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 1.7;
 }
 
 
